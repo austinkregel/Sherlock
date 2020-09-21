@@ -1,0 +1,35 @@
+{
+  "name": "@kregel/network",
+  "version": "0.0.1",
+  "description": "A network discovery tool that exposes a basic http api to query the existing network devices",
+  "main": "index.js",
+  "dependencies": {
+    "@network-utils/arp-lookup": "^1.3.4",
+    "arpping": "^2.0.0",
+    "axios": "^0.20.0",
+    "bonjour": "^3.5.0",
+    "dayjs": "^1.8.36",
+    "evilscan": "^1.7.5",
+    "express": "^4.17.1",
+    "mac-lookup": "^1.0.1",
+    "ora": "^5.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/austinkregel/Sherlock.git"
+  },
+  "keywords": [
+    "network",
+    "discovery"
+  ],
+  "author": "Austin Kregel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/austinkregel/Sherlock/issues"
+  },
+  "homepage": "https://github.com/austinkregel/Sherlock#readme"
+}
